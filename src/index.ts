@@ -16,6 +16,7 @@ export default {
 		console.log('hey friend');
 		console.log('i just like console logging');
 		console.log('this is a test of the console logging system');
+		console.log('aaaaa');
 		return new Response('Hello, World!');
 	},
 } satisfies ExportedHandler<Env>;
