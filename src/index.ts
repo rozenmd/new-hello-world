@@ -14,7 +14,8 @@
 export default {
 	async fetch(_request, _env, _ctx): Promise<Response> {
 		console.log('hey friend');
-
+		// This is a simple response that returns "Hello, World!".
+		// You can modify this to return any content you like.
 		return new Response('Hello, World!');
 	},
 } satisfies ExportedHandler<Env>;
